@@ -1,5 +1,4 @@
-import '.src/style.css';
-
+import "./form.js"
 
 // alteração do header após rolagem da tela.
 window.addEventListener("scroll", function() {
