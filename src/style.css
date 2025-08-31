@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+}
+
+/* animação do header ao scrollar a página */
+header {
+  transition: background-color 0.5s ease, height 0.5s ease;
+}
+header.rolagem {
+   background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  backdrop-filter: blur(8px);
+  height: 86px;
+}
+header.rolagem nav, header.rolagem nav ul, header.rolagem nav ul li {
+  color: white;
+}
+header.rolagem nav ul li:hover {
+  color: #D0D1D0;
+  transition: all 0.3s ease-in-out;
+}
+
