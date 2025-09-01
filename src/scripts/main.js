@@ -115,3 +115,11 @@ document.addEventListener('DOMContentLoaded', function () {
         window.open(whatsappLink, '_blank');
     })
 });
+
+// botão contate-nos na seçõ sobre, ir até a seção contact
+const btnContateNos = document.querySelector("#btn-contateNos");
+btnContateNos.addEventListener("click", () => {
+    const contactSection = document.getElementById("contact");
+    contactSection.scrollIntoView({ behavior: "smooth" });
+});
+// FIM DAS ANIMAÇÕES.
