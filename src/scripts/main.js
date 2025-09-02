@@ -38,7 +38,7 @@ menuBtn.addEventListener("click", () => {
 
 // direcionamentos via click para o whatsapp
 const buttons = document.querySelectorAll("[data-whatsapp]");
-const number = "5511923083169";
+const number = "551123083169";
 const messageWpp = "Olá, gostaria de mais informações!"
 
 buttons.forEach(btn => {
