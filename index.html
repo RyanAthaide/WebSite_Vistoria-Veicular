@@ -259,7 +259,7 @@
             <h2 class="text-3xl font-semibold text-slate-900 leading-tight">
               Vistoria Cautelar
             </h2>
-            <p class="mt-4 text-sm text-slate-500 leading-relaxed">
+            <p class="mt-4 text-sm md:text-base text-slate-500 leading-relaxed">
               A vistoria cautelar realiza um diagnóstico completo do veículo,
               analisando a estrutura da carroceria, o conjunto de identificação
               e o cadastro no sistema (chassi, motor e agregados). Esse processo
@@ -290,14 +290,12 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center">
           <div class="lg:col-span-2 p-10">
             <h2 class="text-3xl font-semibold text-slate-900 leading-tight">
-              Laudo para Transferência
+              Laudo ECV
             </h2>
-            <p class="mt-4 text-sm text-slate-500 leading-relaxed">
-              O laudo do Detran é um documento obrigatório para a transferência
-              de propriedade de veículos. Ele garante que o automóvel está em
-              conformidade com os padrões de segurança, identificação e
-              documentação exigidos pelos órgãos de trânsito, oferecendo mais
-              confiança e segurança no processo de compra e venda.
+            <p class="mt-4 text-sm md:text-base text-slate-500 leading-relaxed">
+           Este laudo é usado para tirar a segunda via do DUT (recibo de compra e venda),
+            trocar a placa cinza pela placa Mercosul, pedir uma nova placa Mercosul
+             quando for necessário e também para regularizar carros que ainda têm placa amarela.
             </p>
 
             <button
@@ -317,6 +315,36 @@
       <!-- end card 2 -->
 
       <!-- card 3 -->
+       <div
+        class="bg-gray-50 w-full h-full lg:h-[22vw] flex flex-col md:flex-row justify-center items-center rounded-lg overflow-hidden border-4 border-blue-700 shadow-xl mt-4"
+      >
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center">
+          <div class="lg:col-span-2 p-10">
+            <h2 class="text-3xl font-semibold text-slate-900 leading-tight">
+              Desbloqueio de veículos por infração de transito.
+            </h2>
+            <p class="mt-4 text-sm md:text-base text-slate-500 leading-relaxed">
+              Vistoria de infração de Trânsito para desbloqueio do veículo quando ele for apreendido ou receber infração com bloqueio administrativo de documento.
+            </p>
+
+            <button
+              type="button"
+              class="px-5 py-3 mt-8 rounded-md text-white text-sm font-medium tracking-wider border-none outline-none bg-blue-600 hover:bg-blue-700 cursor-pointer"
+              data-service-whatsapp="Olá, gostaria de agendar uma vistoria."
+            >
+              Agendar Vistoria
+            </button>
+          </div>
+
+          <div class="hidden lg:block aspect-[341/312] h-full">
+            <img src="src/assets/velho-elegante-e-elegante-em-um-salao-de-carro.jpg" class="w-full h-full" />
+          </div>
+        </div>
+      </div>
+      <!-- end card 3 -->
+
+
+      <!-- card 4 -->
       <div
         class="bg-gray-50 w-full h-full lg:h-[22vw] flex flex-col md:flex-row justify-center overflow-hidden items-center rounded-lg border-4 border-blue-700 shadow-xl mx-auto mt-4"
       >
@@ -330,10 +358,8 @@
               seguintes documentos:
             </p>
             <ul class="list-disc list-inside text-gray-600 space-y-1">
-              <li>Documento do veículo (CRLV ou CRV);</li>
-              <li>Documento de identidade oficial com foto (RG ou CNH);</li>
-              <li>Comprovante de endereço atualizado;</li>
-              <li>Em alguns casos, comprovante de pagamento da taxa.</li>
+              <li>Documento do veículo (CRIV,CRV, nota fiscal ou declaração de perda e extravio.);</li>
+              <li>Carteira Nacional de Habilitação (CNH);</li>
             </ul>
 
             <button
@@ -350,7 +376,7 @@
           </div>
         </div>
       </div>
-      <!-- end card 3 -->
+      <!-- end card 4 -->
     </section>
 
     <!-- Contact Form -->
@@ -442,7 +468,7 @@
                 <i class="text-2xl fa-brands fa-whatsapp text-blue-500"></i>
 
                 <span class="mx-2 truncate w-72 text-gray-400"
-                  >(11) 92308-3169</span
+                  >(11) 2308-3169</span
                 >
               </p>
 
