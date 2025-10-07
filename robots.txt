@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Bloqueia pastas desnecessárias (caso existam no futuro)
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Caminho do sitemap para indexação
+Sitemap: https://www.techvistoriacantareira.com.br/sitemap.xml
